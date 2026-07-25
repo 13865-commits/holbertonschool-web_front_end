@@ -1,81 +1,194 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Styleguide - Techium</title>
-    <meta name="description" content="Techium is a digital agency">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="icon" type="image/png" href="./favicon.png">
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-
-    <!-- Header -->
-    <header class="header" data-section="header">
-      <div class="container">
-        <div class="header-container">
-          <div class="left">
-            <a href="/" class="logo">
-              <img src="logo-black.png" alt="Techium logo" width="160" height="40">
-            </a>
-          </div>
-          <nav class="navbar">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="#latest-news" class="nav-link">Latest news</a></li>
-              <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main -->
-    <main>
-      <h1>Styleguide</h1>
-
-      <!-- Details section -->
-      <section>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>Styleguide - Techium</title>
+        <meta name="description" content="Techium is a digital agency">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="icon" type="image/png" href="./favicon.png">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <!-- Header -->
         <header>
-          <h2>Details</h2>
+            <div>
+                <a href="/">
+                    <img src="./logo-black.png" alt="Techium logo" width="160" height="40">
+                </a>
+            </div>
+            <nav>
+            </nav>
         </header>
-      </section>
 
-      <!-- Video -->
-      <section>
-        <header>
-          <h2>Video</h2>
-        </header>
-        <div>
-          <video controls loop poster="https://intranet-projects-files.s3.amazonaws.com/webstack/thumbnail.jpg">
-            <source src="https://intranet-projects-files.s3.amazonaws.com/webstack/BigBuckBunny.mp4" type="video/mp4">
-            Sorry, your browser doesn't support HTML5 video
-          </video>
-        </div>
-      </section>
+        <!-- Main -->
+        <main>
+            <h1>Styleguide</h1>
+            
+            <!-- Headings -->
+            <section>
+                <header>
+                    <h2>Headings</h2>
+                </header>
+                <h1>Heading level 1</h1>
+                <h2>Heading level 2</h2>
+                <h3>Heading level 3</h3>
+                <h4>Heading level 4</h4>
+                <h5>Heading level 5</h5>
+                <h6>Heading level 6</h6>
+            </section>
 
-    </main>
+            <!-- Paragraphs -->
+            <section>
+                <header>
+                    <h2>Paragraphs</h2>
+                </header>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </section>
 
-    <!-- Footer -->
-    <footer class="footer" data-section="footer">
-      <img src="logo-black.png" alt="Techium logo" width="160" height="40">
-      <address>
-        234 Dummy Street, Tech City, 12345
-      </address>
-      <div class="container">
-        <ul class="social-links">
-          <li><a href="#" target="_blank">Facebook</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">Instagram</a></li>
-        </ul>
-        <p>&copy; 2026 Techium, All rights reserved.</p>
-      </div>
-    </footer>
+            <!-- Lists -->
+            <section>
+                <header>
+                    <h2>Lists</h2>
+                </header>
+                <div>
+                    <h3>Unordered</h3>
+                    <ul>
+                        <li>Pellentesque habitant morbi tristique</li>
+                        <li>Pellentesque habitant morbi tristique</li>
+                        <li>Pellentesque habitant morbi tristique</li>
+                    </ul>
+                    <h3>Ordered</h3>
+                    <ol>
+                        <li>Pellentesque habitant morbi tristique</li>
+                        <li>Pellentesque habitant morbi tristique</li>
+                        <li>Pellentesque habitant morbi tristique</li>
+                    </ol>
+                    <h3>Definition</h3>
+                    <dl>
+                        <dt>Text</dt>
+                        <dd>Pellentesque habitant morbi tristique</dd>
+                    </dl>
+                </div>
+            </section>
 
-  </body>
+            <!-- Horizontal rule -->
+            <section>
+                <header>
+                    <h2>Horizontal rule</h2>
+                </header>
+                <div>
+                    <hr>
+                </div>
+            </section>
+
+            <!-- Blockquotes -->
+            <section>
+                <header>
+                    <h2>Blockquotes</h2>
+                </header>
+                <div>
+                    <h3>Inline</h3>
+                    <p><q>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</q></p>
+                    <h3>With footer</h3>
+                    <blockquote>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <footer>
+                            <cite>Pellentesque habitant</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </section>
+
+            <!-- Typography -->
+            <section>
+                <header>
+                    <h2>Typography</h2>
+                </header>
+                <div>
+                    <address>
+                        34, Avenue des Champs-Élysées, 75008 Paris, France
+                    </address>
+                    <pre>
+                        <code>
+                            &lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+                        </code>
+                    </pre>
+                    <p>Curabitur sit amet Mauris ac <mark>tellus</mark> auctor vulputate.</p>
+                </div>
+            </section>
+
+            <!-- Table -->
+            <section>
+                <header>
+                    <h2>Table</h2>
+                </header>
+                <table>
+                    <caption>Star Wars Trilogy Data</caption>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Director</th>
+                            <th>Release Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A New Hope</td>
+                            <td>George Lucas</td>
+                            <td>May 25, 1977</td>
+                        </tr>
+                        <tr>
+                            <td>The Empire Strikes Back</td>
+                            <td>Irvin Kershner</td>
+                            <td>May 21, 1980</td>
+                        </tr>
+                        <tr>
+                            <td>Return of the Jedi</td>
+                            <td>Richard Marquand</td>
+                            <td>May 25, 1983</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Details -->
+            <section>
+                <header>
+                    <h2>Details</h2>
+                </header>
+                <div>
+                    <h3>Default</h3>
+                    <details>
+                        <summary>Show/Hide me</summary>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </details>
+                </div>
+                <div>
+                    <h3>Open</h3>
+                    <details open>
+                        <summary>Always open</summary>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </details>
+                </div>
+            </section>
+
+            <!-- Video -->
+            <section>
+                <header>
+                    <h2>Video</h2>
+                </header>
+                <video src="https://intranet-projects-files.s3.amazonaws.com/webstack/BigBuckBunny.mp4" controls loop poster="https://intranet-projects-files.s3.amazonaws.com/webstack/thumbnail.jpg">
+                    Sorry, your browser doesn't support HTML5 video
+                </video>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div>
+                <p>&copy; 2026 Techium, all rights reserved.</p>
+            </div>
+        </footer>
+    </body>
 </html>
