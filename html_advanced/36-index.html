@@ -7,186 +7,183 @@
     <meta name="description" content="Techium is a digital agency">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+
     <!-- Header -->
-    <header>
-      <div>
-        <div>
-          <a href="/"><img src="logo-black.png" alt="Techium logo" width="160" height="40"></a>
+    <header class="header" data-section="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="left">
+            <a href="/" class="logo">
+              <img src="logo-black.png" alt="Techium logo" width="160" height="40">
+            </a>
+          </div>
+          <nav class="navbar">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#latest-news" class="nav-link">Latest news</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#works">Works</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#latest_news">Latest news</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
+
     <!-- Main -->
     <main>
-      <h1>Homepage</h1>
+
       <!-- Hero section -->
-      <section>
-        <div>
-          <h2>We help you build your brand!</h2>
-          <a href="#">Get started</a>
+      <section class="section-hero" data-section="hero">
+        <div class="container">
+          <h1>We help you to build your brand</h1>
+          <a href="#" class="button">Find out more</a>
         </div>
       </section>
+
       <!-- Services section -->
-      <section>
-        <div>
-          <header>
+      <section id="services" class="section-services" data-section="services">
+        <div class="container">
+          <header class="section-header">
             <h2>Services</h2>
             <p>We work with you</p>
           </header>
-          <div>
-            <h3><a href="#">Design & Concept</a></h3>
-            <h3><a href="#">Digital Strategy</a></h3>
-            <h3><a href="#">Content Strategy</a></h3>
-            <h3><a href="#">UX Design</a></h3>
-            <h3><a href="#">Web Development</a></h3>
-            <h3><a href="#">Social Media</a></h3>
+          <div class="section-body">
           </div>
         </div>
       </section>
+
       <!-- Works section -->
-      <section>
-        <div>
-          <header>
+      <section id="works" class="section-works" data-section="works">
+        <div class="container">
+          <header class="section-header">
             <h2>Works</h2>
-            <p>Take a look in our portfolio</p>
+            <p>Take a look at our team projects</p>
           </header>
-          <div>
+          <div class="section-body">
             <article>
-              <h3><a href="#">Interior Design</a></h3>
+              <div><img src="images/pic-work-01.jpg" alt=""></div>
+              <h3>Interior Design</h3>
             </article>
             <article>
-              <h3><a href="#">Web Development</a></h3>
+              <div><img src="images/pic-work-02.jpg" alt=""></div>
+              <h3>Web Development</h3>
             </article>
             <article>
-              <h3><a href="#">Personal Brand</a></h3>
+              <div><img src="images/pic-work-03.jpg" alt=""></div>
+              <h3>Personal Brand</h3>
             </article>
           </div>
         </div>
       </section>
-      <!-- About Us section -->
-      <section>
-        <div>
-          <header>
-            <h2>About Us</h2>
+
+      <!-- About section -->
+      <section id="about" class="section-about" data-section="about">
+        <div class="container">
+          <header class="section-header">
+            <h2>About us</h2>
             <p>Everything about us</p>
           </header>
-          <div>
-            <h3>Who are we</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
-            <h3>Our culture</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
-            <h3>How we work</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+          <div class="section-body">
+            <div>
+              <img src="images/pic-about-us.jpg" alt="" width="460" height="447">
+              <h3>Who we are</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </div>
           </div>
-          <a href="about.html">Learn more about us</a>
         </div>
       </section>
+
       <!-- Latest news section -->
-      <section>
-        <div>
-          <header>
+      <section id="latest-news" class="section-latest-news" data-section="latest-news">
+        <div class="container">
+          <header class="section-header">
             <h2>Latest news</h2>
           </header>
-          <div>
+          <div class="section-body">
             <article>
-              <p>Career</p>
-              <h3><a href="#">Hoc loco tenere se Triarius non potuit.</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
-              <small>By Kelly D.</small>
+              <div><img src="images/pic-blog-01.jpg" alt="" width="305" height="205"></div>
+              <p>Hence whenever, during the time of the full moon, we happened to go...</p>
             </article>
             <article>
-              <p>Digital Life</p>
-              <h3><a href="#">Ut alios omittam, hunc appello, quem ille unum secutus est.</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?</p>
-              <small>By William A.</small>
+              <div><img src="images/pic-blog-02.jpg" alt="" width="305" height="205"></div>
+              <p>It is a long established fact that a reader will be distracted...</p>
             </article>
             <article>
-              <p>Social</p>
-              <h3><a href="#">Bestiarum vero nullum iudicium puto.</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.</p>
-              <small>By Frances J.</small>
+              <div><img src="images/pic-blog-03.jpg" alt="" width="305" height="205"></div>
+              <p>Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
             </article>
           </div>
         </div>
       </section>
+
       <!-- Testimonials section -->
-      <section>
-        <div>
-          <header>
+      <section id="testimonials" class="section-testimonials" data-section="testimonials">
+        <div class="container">
+          <header class="section-header">
             <h2>Testimonials</h2>
             <p>We are more than a digital company</p>
           </header>
-          <div>
+          <div class="section-body">
             <article>
+              <img src="images/pic-person-01.jpg" alt="Yuri Y. avatar" width="100" height="100">
               <blockquote>
-                <p>I am completely blown away. Thanks to Techium, we've just launched our 5th website!</p>
+                <p>I am completely blown away by the quality of service...</p>
                 <cite>Yuri Y.</cite>
               </blockquote>
             </article>
             <article>
+              <img src="images/pic-person-02.jpg" alt="Dorrie S. avatar" width="100" height="100">
               <blockquote>
-                <p>Thank you so much for your help. Techium company is awesome!</p>
+                <p>The team was amazing to work with and delivered right on time...</p>
                 <cite>Dorrie S.</cite>
               </blockquote>
             </article>
             <article>
+              <img src="images/pic-person-03.jpg" alt="Sven H. avatar" width="100" height="100">
               <blockquote>
-                <p>I love your system. Definitely worth the investment. I'd be lost without Techium company.</p>
+                <p>Exceptional work ethic and high creativity standards...</p>
                 <cite>Sven H.</cite>
               </blockquote>
             </article>
           </div>
         </div>
       </section>
+
       <!-- Contact section -->
-      <section>
-        <div>
-          <header>
+      <section id="contact" class="section-contact" data-section="contact">
+        <div class="container">
+          <header class="section-header">
             <h2>Contact</h2>
-            <p>We like to know new people</p>
+            <p>We'd love to hear from you</p>
           </header>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+          <div class="section-body">
           </div>
-          <a href="contact.html">Get in touch</a>
         </div>
       </section>
+
     </main>
+
     <!-- Footer -->
-    <footer>
+    <footer class="footer" data-section="footer">
       <img src="logo-black.png" alt="Techium logo" width="160" height="40">
       <address>
-        234 Washington Street<br>
-        Urbana, Illinois
+        234 Dummy Street, Tech City, 12345
       </address>
-      <div>
-        <ul>
-          <li><a href="https://www.facebook.com/HolbertonSchool/">Facebook</a></li>
-          <li><a href="https://twitter.com/holbertonschool">Twitter</a></li>
-          <li><a href="https://www.instagram.com/holbertonschool/">Instagram</a></li>
+      <div class="container">
+        <ul class="social-links">
+          <li><a href="#" target="_blank">Facebook</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+          <li><a href="#" target="_blank">Instagram</a></li>
         </ul>
-      </div>
-      <hr>
-      <p>© 2020 Techium, made with ♥ by students at Holberton School.</p>
-      <div>
-        <ul>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Cookie Policy</a></li>
-        </ul>
+        <p>&copy; 2026 Techium, All rights reserved.</p>
       </div>
     </footer>
+
   </body>
 </html>
